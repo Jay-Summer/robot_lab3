@@ -67,6 +67,10 @@ Youtube: [【开源】超低成本的激光雷达导航方案](https://www.youtu
   ```
   ros2 launch lidar_pkg lidar.launch.py 
   ```
+  
+## 其他
+1. 雷达底座的3D打印模型：models/lidar_mount.stl(./models/lidar_mount.stl)
+
 ## 分享&交流
 关注我，后续解锁更多玩法 o(*≧▽≦)ツ
 <div align="center">
