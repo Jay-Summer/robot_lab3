@@ -443,7 +443,7 @@ private:
         if (filter_enabled_) {
             size_t raw_size = full_scan_buffer_.size();
             removeOutliers(full_scan_buffer_);
-            // RCLCPP_INFO(this->get_logger(), "Filtered: %lu -> %lu", raw_size, full_scan_buffer_.size());
+            RCLCPP_INFO(this->get_logger(), "Filtered: %lu -> %lu", raw_size, full_scan_buffer_.size());
         }
 
         sensor_msgs::msg::LaserScan scan;
